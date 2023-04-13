@@ -25,13 +25,35 @@
     padding: 20px;
     margin: 10px 0;
   }
+  .bloco-1{
+    text-align: center;
+  }
+
+  aside{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  button:active{
+    background-color: green;
+    color: white;
+  }
   
   nav{
     padding: 20px;
     background-color: white;
+    position: sticky;
+    top: 0;
   }
-  
+
+  footer:hover{
+    background-color: yellow;
+  }
+
   footer{
     background-color: #abd1c6;
     padding: 20px;
+    text-align: center;
   }
+
